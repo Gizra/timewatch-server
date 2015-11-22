@@ -35,4 +35,4 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 
 ; Timewatch
-dependencies[] = timewatch_restful
+dependencies[] = timewatch_session

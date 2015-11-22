@@ -1,9 +1,0 @@
-name = Timewatch RESTFul
-core = 7.x
-package = Timewatch
-dependencies[] = restful
-dependencies[] = entity_validator
-
-dependencies[] = timewatch_company
-
-files[] = plugins/restful/node/TimewatchEntityBaseNode.php
