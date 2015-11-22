@@ -1,0 +1,38 @@
+name = Timewatch
+description = Timewatch
+version = VERSION
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = file
+
+; Contrib modules
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = entityreference
+dependencies[] = entity_validator
+dependencies[] = features
+dependencies[] = flag
+dependencies[] = module_filter
+dependencies[] = restful
+dependencies[] = restful_token_auth
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_bulk_operations
+
+; Timewatch
+dependencies[] = timewatch_restful
