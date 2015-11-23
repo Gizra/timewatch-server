@@ -1,0 +1,8 @@
+name = Timewatch migrate
+package = Timewatch
+core = 7.x
+version = "7.x-1.x-dev"
+
+files[] = handlers/TimewatchTimewatchMigrate.inc
+files[] = handlers/TimewatchUserMigrate.inc
+files[] = includes/TimewatchUserMigrateBase.inc

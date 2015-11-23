@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_migrate_api().
+ */
+function timewatch_migrate_migrate_api() {
+  $classes = array(
+    'TimewatchTimewatchMigrate',
+    'TimewatchUserMigrate',
+  );
+
+  $migrations = array();
+  foreach ($classes as $class_name) {
+    $migrations[$class_name] = array(
+      'class_name' => $class_name,
+      'group_name' => 'timewatch',
+    );
+  }
+
+  $api = array(
+    'api' => 2,
+    'groups' => array(
+      'timewatch' => array('title' => t('Content')),
+    ),
+    'migrations' => $migrations,
+  );
+
+  return $api;
+}

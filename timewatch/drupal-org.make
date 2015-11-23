@@ -55,3 +55,9 @@ projects[views_bulk_operations][version] = "3.3"
 ; Development
 projects[devel][subdir] = "development"
 projects[devel][version] = "1.5"
+
+projects[migrate][subdir] = "development"
+projects[migrate][version] = "2.8"
+
+projects[migrate_extras][subdir] = "development"
+projects[migrate_extras][version] = 2.5
